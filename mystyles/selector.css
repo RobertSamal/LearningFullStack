@@ -1,0 +1,44 @@
+li{
+    border: 1px rgb(148, 36, 26) solid;
+}
+
+/* I created an ID caled list1 */
+#list1{
+    background: rgb(255, 240, 36);
+}
+.textedit
+{
+    text-align: center;
+    background: black;
+    color: rgb(28, 235, 9);
+}
+
+.Samburu{
+    background: red;
+    color: white;
+}
+
+.Mombasa{
+    background: orange;
+}
+
+.Kisumu{
+    background: yellow;
+}
+
+.Kakamega{
+    background: rgb(60, 228, 60);
+}
+
+.Malindi{
+    background: rgb(34, 123, 240);
+}
+
+.Turkana{
+    background: rgb(112, 13, 184);
+    color: azure;
+}
+
+.Nakuru{
+    background: violet;
+}
