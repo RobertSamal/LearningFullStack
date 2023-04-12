@@ -1,0 +1,30 @@
+h1{
+    font-family: Metropolis;
+    color: rgb(155, 1, 147);
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline overline;
+    
+}
+p{
+    font-family: Trebuchet MS;
+    color: rgb(16, 31, 31);
+    font-style: italic;
+    font-size: 1.2em;
+    text-align: justify;
+    line-height: 1.2;
+
+}
+span{
+    font-weight: bold;
+    color: orangered;
+}
+.span_title{
+    color: rgb(255, 157, 11);
+}
+
+.spanand{
+    color: rgb(69, 180, 17);
+    font-size: 1.5em;
+}
+
