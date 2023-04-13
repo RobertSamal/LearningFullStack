@@ -1,0 +1,19 @@
+h1{
+    background-color: rgb(218, 214, 3);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+p{
+    background-color: grey;
+    display: inline;
+    display: none;
+}
+
+span{
+    background-color: palevioletred;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
