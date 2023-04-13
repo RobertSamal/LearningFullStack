@@ -1,0 +1,20 @@
+body{
+    border: 7px rgb(4, 143, 4) solid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    width: 300px;
+    float: left;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(255, 75, 9);
+}
+
+.ulparagraph{
+    text-decoration: underline;
+}
+.food{
+    margin: 15px;
+}

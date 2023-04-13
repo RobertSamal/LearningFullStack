@@ -1,0 +1,40 @@
+.mybox{
+    width: 850px;
+    height: 500px;
+    border: 6px green solid;
+    padding-top: 100px;
+
+}
+
+body{
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+img{
+    float: left;
+
+}
+
+.mytext{
+    float: left;
+    display: inline;
+    text-align:inherit;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: -1px;
+    margin-left: 350px;
+    margin-top: -450px;
+
+}
+
+.mytext h1{
+    color: red;
+    font-family: Britannic;
+    text-align: center;
+
+}
+
+
+.mytext .p2ul{
+    text-decoration: underline;
+}
