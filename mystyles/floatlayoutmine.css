@@ -1,15 +1,19 @@
+@media screen and (min-width: 802px) and (max-width: 2000px){
+    
+
 .mybox{
-    width: 850px;
+    width: 801px;
     height: 500px;
     border: 6px green solid;
     padding-top: 100px;
 
+
 }
 
-body{
+  /* body{
     margin-top: 80px;
     margin-left: 300px;
-}
+}   */
 
 img{
     float: left;
@@ -37,4 +41,95 @@ img{
 
 .mytext .p2ul{
     text-decoration: underline;
+}
+}
+
+@media screen and (min-width: 553px) and (max-width: 800px) {
+
+
+    .mybox {
+        width: 552px;
+        height: 500px;
+        border: 6px green solid;
+        padding-top: 100px;
+
+    }
+
+    /* body {
+        margin-top: 80px;
+        margin-left: 300px;
+    } */
+
+    img {
+        float: left;
+
+    }
+
+    .mytext {
+        float: left;
+        display: inline;
+        text-align: inherit;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: -1px;
+        margin-left: 350px;
+        margin-top: -450px;
+
+    }
+
+    .mytext h1 {
+        color: red;
+        font-family: Britannic;
+        text-align: center;
+
+    }
+
+
+    .mytext .p2ul {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 476px) and (max-width: 552px) {
+
+
+    .mybox {
+        width: 475px;
+        height: 500px;
+        border: 6px green solid;
+        padding-top: 100px;
+
+    }
+
+    /* body {
+        margin-top: 80px;
+        margin-left: 300px;
+    } */
+
+    img {
+        float: left;
+
+    }
+
+    .mytext {
+        float: left;
+        display: inline;
+        text-align: inherit;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: -1px;
+        margin-left: 350px;
+        margin-top: -450px;
+
+    }
+
+    .mytext h1 {
+        color: red;
+        font-family: Britannic;
+        text-align: center;
+
+    }
+
+
+    .mytext .p2ul {
+        text-decoration: underline;
+    }
 }
