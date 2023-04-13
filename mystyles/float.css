@@ -22,7 +22,7 @@
     background-color: purple;
     clear: both;
     margin-left: 300px;
-    box-shadow: 10px 20px 15px black ;
-    border-radius: 15px;
-    transform: rotate(60deg);
+    box-shadow: 10px 20px 15px rgb(8, 0, 8) ;
+    border-radius: 0px 15px 50px 8px;
+    transform: rotate(45deg);
 }

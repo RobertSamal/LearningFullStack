@@ -1,3 +1,6 @@
+@media screen and (min-width: 400px) and (max-width: 2000px ){
+    
+
 .sky{
     width: 750px;
     height: 250px;
@@ -40,4 +43,5 @@ img{
     background-color: #0aa50a;
     border-radius: 200% 0 0 0;
     margin: -100px 0 0 300px;
+}
 }
