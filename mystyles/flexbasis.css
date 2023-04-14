@@ -1,0 +1,32 @@
+.flexcontainer{
+    border: 2px solid chocolate;
+    color: aliceblue;
+    display: flex;
+    font-family: family home;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+
+.box1{
+    background-color: blueviolet;
+    margin: 5px;
+    flex-basis: 70%;
+}
+
+.box2 {
+    background-color: rgb(38, 170, 5);
+    margin: 5px;
+    flex-basis: 50%;
+}
+
+.box3 {
+    background-color: rgb(247, 178, 32);
+    margin: 5px;
+    flex: 0 0 60%;
+}
+
+*{
+    box-sizing: border-box;
+}

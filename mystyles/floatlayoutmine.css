@@ -3,9 +3,10 @@
 
 .mybox{
     width: 801px;
-    height: 500px;
+    height: 800px;
     border: 6px green solid;
     padding-top: 100px;
+    margin: auto;
 
 
 }

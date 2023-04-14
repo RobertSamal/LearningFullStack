@@ -1,0 +1,37 @@
+.mother{
+    border: 3px groove black;
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: stencil;
+    justify-content: center;
+
+}
+
+.box{
+    border: 3px solid rgb(255, 254, 254);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.boxno1{
+    background-color: orangered;
+}
+
+.boxno2 {
+    background-color: rgb(21, 255, 0);
+}
+
+.boxno3 {
+    background-color: rgb(255, 230, 0);
+    color: black;
+}
+
+.boxno4 {
+    background-color: rgb(48, 5, 206);
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
