@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(34, 233, 43);
+    height: 150px;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box{
+    background-color: purple;
+    color: beige;
+    height: 50px;
+    width: 50px;
+    border: 3px orange groove;
+    padding: 10px;
+}
