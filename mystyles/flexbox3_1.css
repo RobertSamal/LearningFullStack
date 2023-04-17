@@ -1,0 +1,33 @@
+.bigbox{
+    height: 200px;
+    background-color: purple;
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.babies{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    border: 2px groove rgb(255, 238, 0);
+    flex-basis: 30%;
+    flex-shrink: 0;
+    
+}
+
+/* .baby1{
+    height: 50px;
+    align-self: center;
+}
+
+.baby2 {
+    height: 75px;
+    align-self: flex-end;
+}
+
+.baby3 {
+    height: 150px;
+    align-self: center;
+} */
