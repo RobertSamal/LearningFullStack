@@ -1,0 +1,26 @@
+.mother{
+    background-color: rgb(0, 0, 0);
+    color: rebeccapurple;
+    display: grid;
+    padding: 10px;
+    font-family: family home;
+    border: 2px dashed rgb(123, 255, 0);
+    font-size: 25px;
+    grid-gap: 10px;
+    grid-template: 100px 200px 300px/repeat(3,1fr);
+    /* justify-items: center; 
+    align-items: center; */
+    /* place-items: center end; */
+}
+
+.child{
+    background-color: white;
+    border: pink groove 2px;
+    
+}
+
+.child5{
+    /* align-self: end;
+    justify-self: end; */
+    place-self: center start;
+}
