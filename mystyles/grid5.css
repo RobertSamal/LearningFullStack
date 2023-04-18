@@ -1,0 +1,20 @@
+.mother{
+    background-color: orange;
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+    height: 700px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template: 1fr/repeat(auto-fit,minmax(100px,1fr));
+    font-family: stencil;
+    /* align-content: space-evenly; */
+    /* justify-content: end; */
+
+}
+
+.baby{
+    border: 2px rgb(255, 255, 255) solid;
+    background-color: rgb(85, 138, 7);
+
+}
