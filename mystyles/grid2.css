@@ -1,0 +1,30 @@
+.mother{
+    background-color: black;
+    color: rgb(26, 25, 23);
+    border: 1px solid yellow;
+    padding: 10px;
+    display: grid;
+    grid-template: 100px 200px 250px/repeat(3,2fr);
+    grid-gap: 12px;
+}
+
+.child{
+    border: 2px groove pink;
+    background-color: yellow;
+    
+}
+
+.child5{
+    /* grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4; */
+
+    /* You can also write them in 2 lines as below */
+    /* grid-row: 2/3;
+    grid-column: 1/2 ; */
+
+    /* You can also white them as follows row start column start row end column end */
+    grid-area: 3/1/4/2;
+
+}
