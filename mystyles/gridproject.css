@@ -7,6 +7,8 @@
 body{
     margin: auto 0;
 }
+
+/* Navigation bar Start */
 .main_nav{
     background-color: black;
     width: 100%;
@@ -15,12 +17,16 @@ body{
     box-shadow: 2px 2px 2px 2px rgb(37, 37, 37);
     position: fixed;
     
-    
 }
 
+
 ul{
-    display: flex;
     list-style: none;
+    display: grid;
+    grid-gap: 2px;
+    padding: 2px;
+    grid-template: 3fr/ repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: space-evenly;
     
     
 }
@@ -29,22 +35,52 @@ li{
     margin: auto;
     
 }
+.btn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: groove white 3px;
+    font-family: myriad;
+    font-size: 1em;
+    border-radius: 10px;
 
-a{
+}
+
+.btn:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.navitems{
+    align-self: center;
+}
+
+/* a{
     text-decoration: none;
     color: white;
     font-family: myriad;
     border: 3px groove white;
     border-radius: 10px;
+} */
+/* Navigation bar Stop */
+
+/* Section 2 Start */
+.section2 {
+    box-shadow: 2px 2px 2px 2px black;
+    display: grid;
+    grid-template: 1fr/repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 5px;
+    padding-top: 152px;
+    justify-content: center;
+    color: aliceblue;
 }
 
-.container1{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    box-shadow: 2px 2px 2px 2px rgb(37, 37, 37);
-    padding-top: 100px;
+.picture{
+    align-self: center;
+    justify-self: center;
+}
 
-
+.paragraph {
+    background-color: black;
 }
 
 p{
@@ -52,7 +88,9 @@ p{
     font-size: 1em;
     padding: 20px;
 }
+/* Section 2 Stop */
 
+/* Section 3 Start */
 .container2{
     display: grid;
     grid-template: 1fr / repeat(auto-fill, minmax(200px,0.5fr));
@@ -64,6 +102,7 @@ p{
     margin: 20px;
     padding: 20px;
     background-color: rgb(0, 0, 0);
+
     
 
 }
@@ -71,6 +110,82 @@ p{
 .pic > img{
     width: 100%;
 }
+
+.pic img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.pic:hover img {
+    filter: brightness(0.5);
+}
+
+.pic-text {
+/* 
+    transform: translate(-50%, -50%); */
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.pic:hover .pic-text {
+    opacity: 1;
+}
+
+/* Position the text for each image */
+/* .pic1 .pic-text {
+    top: 50%;
+    left: 50%;
+    
+}
+
+.pic2 .pic-text {
+    top: 20%;
+    left: 50%;
+}
+
+.pic3 .pic-text {
+    top: 20%;
+    left: 80%;
+}
+
+.pic4 .pic-text {
+    top: 50%;
+    left: 20%;
+}
+
+.pic5 .pic-text {
+    top: 50%;
+    left: 50%;
+}
+
+.pic6 .pic-text {
+    top: 50%;
+    left: 80%;
+}
+
+.pic7 .pic-text {
+    top: 80%;
+    left: 20%;
+}
+
+.pic8 .pic-text {
+    top: 80%;
+    left: 50%;
+}
+
+.pic9 .pic-text {
+    top: 80%;
+    left: 80%;
+} */
+
+
+/* Section 3 Stop */
 
 .footer1{
     background-color: black;
